@@ -9,7 +9,8 @@ public class SCV{
 
 
     public static void about() {
-        
+        System.out.println("Programa desarrollado por: Javier Añón Gutiérrez");
+        System.out.println("Lenguaje utilizado: Java");
     }
     
 
@@ -125,7 +126,7 @@ public class SCV{
 
             switch (opcion){
                 case 1: return registro();
-                case 2: return acceso();
+                case 2: return null;
             }
             
         }

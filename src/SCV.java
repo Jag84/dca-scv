@@ -249,6 +249,7 @@ public class SCV{
         System.out.println("--------¿Qué quieres hacer?---------");
         System.out.println("1.Crear aviso de fallo");
         System.out.println("2.Ver tus avisos de fallos");
+        System.out.println("3.Créditos");
         System.out.println("------------------------------------");
         
         System.out.print("Selecciona una opción: ");
@@ -261,6 +262,8 @@ public class SCV{
                 case 1: crear_bug();
                 break;
                 case 2: listar_bugs();
+                break;
+                case 3: about();
             }
             
         }
@@ -305,6 +308,7 @@ public class SCV{
         System.out.println("--- MENÚ PRINCIPAL---");
         System.out.println("1.Crear aviso de fallo");
         System.out.println("2.Ver tus avisos de fallos");
+        System.out.println("3.Créditos");
         System.out.println("---------------------");
         
         System.out.print("Selecciona una opción: ");
@@ -317,6 +321,8 @@ public class SCV{
                 case 1: crear_bug();
                 break;
                 case 2: listar_bugs();
+                break;
+                case 3: about();
             }
             
         }

@@ -7,6 +7,10 @@ public class SCV{
 
     public static String usuario;
 
+
+    public static void about() {
+        
+    }
     
 
     public static boolean registro (){
@@ -300,6 +304,8 @@ public class SCV{
        }  
 
     }
+
+
 
     public static boolean menu_principal (){
         int opcion = 0;

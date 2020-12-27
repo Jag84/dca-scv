@@ -130,7 +130,7 @@ public class SCV{
 
             switch (opcion){
                 case 1: return registro();
-                case 2: return null;
+                case 2: return acceso();
             }
             
         }
